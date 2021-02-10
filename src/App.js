@@ -37,7 +37,7 @@ export default class App extends React.Component {
 			<PageHeader text="Home" allowBackNavigation={false}/>
 			<div className="container">
 			<div className="row">
-				<div className="col-4"><Button onClick={this.onSubmit}>Display Not Found</Button></div>
+				{/* <div className="col-4"><Button onClick={this.onSubmit}>Display Not Found</Button></div> */}
 				<div className="col-4"><Button onClick={this.handleEmployeeList}>Show Employee List</Button></div>
 				<div className="col-4"><EmployeeSearch width="300px" /></div>
 			</div>
