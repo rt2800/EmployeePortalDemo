@@ -132,7 +132,7 @@ class EditEmployeeModal extends React.Component {
 											this.props.empObj !== null ? 
 											<Modal.Header>
 												<Modal.Title id="contained-modal-title-vcenter">
-													Edit information for{' ' + this.props.empObj?.firstName + ' ' + this.props.empObj?.lastName + ' (' + this.props.empObj?.empId + ')'}
+													Edit information for{' ' + this.props.empObj.firstName + ' ' + this.props.empObj.lastName + ' (' + this.props.empObj.empId + ')'}
 												</Modal.Title>
 											</Modal.Header> : 
 											<Modal.Title id="contained-modal-title-vcenter">Add New Employee Details</Modal.Title>
